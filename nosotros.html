@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="Bloom Seoul - tienda demostrativa de K-Beauty" name="description"/>
+<title>
+   Nosotros | Bloom Seoul
+  </title>
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header">
+<a class="logo" href="index.html">
+    ✿ Bloom
+    <span>
+     Seoul
+    </span>
+</a>
+<button aria-expanded="false" aria-label="Abrir menú" class="menu-btn" id="menuBtn">
+    ☰
+   </button>
+<nav id="nav">
+<a href="index.html">
+     Inicio
+    </a>
+<a aria-current="page" href="nosotros.html">
+     Nosotros
+    </a>
+<a href="productos.html">
+     Productos
+    </a>
+<a href="rutinas.html">
+     Rutinas K-Beauty
+    </a>
+<a href="contacto.html">
+     Contacto
+    </a>
+</nav>
+<button aria-label="Abrir carrito" class="cart-trigger" id="cartBtn">
+    🛍️
+    <span id="count">
+     0
+    </span>
+</button><button aria-label="Activar modo oscuro" class="theme-toggle" id="themeToggle" title="Cambiar tema" type="button">🌙</button>
+</header>
+<main>
+<section class="section about" id="nosotros">
+<div class="about-image reveal">
+<img alt="Mujer adulta disfrutando de un tratamiento facial" loading="lazy" src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=900&amp;q=80"/>
+<div class="image-tag">
+      self-care club ♡
+     </div>
+</div>
+<div class="about-copy reveal">
+<span class="eyebrow">
+      NUESTRA ESENCIA
+     </span>
+<h2>
+      La belleza empieza con
+      <em>
+       cuidarte
+      </em>
+</h2>
+<p>
+      En
+      <strong>
+       Bloom Seoul
+      </strong>
+      creemos en pequeños momentos de autocuidado. Nuestra tienda de demostración reúne productos inspirados en las rutinas coreanas, con una experiencia cercana, delicada y divertida.
+     </p>
+<div class="about-point">
+<b>
+       🌷 Nuestra misión
+      </b>
+<p>
+       Acercar el mundo K-Beauty a quienes disfrutan explorar maquillaje y cuidado facial.
+      </p>
+</div>
+<div class="about-point">
+<b>
+       ✨ Nuestra visión
+      </b>
+<p>
+       Ser un espacio donde cada persona encuentre inspiración para crear su propia rutina.
+      </p>
+</div>
+</div>
+</section>
+</main>
+<footer>
+<a class="logo" href="index.html">
+    ✿ Bloom
+    <span>
+     Seoul
+    </span>
+</a>
+<p>
+    Pequeños rituales, grandes sonrisas. ♡
+   </p>
+<small>
+    ©
+    <span id="year">
+</span>
+    Bloom Seoul · Sitio demostrativo, sin pagos reales.
+   </small>
+</footer>
+<a aria-label="Escribir a Bloom Seoul por WhatsApp" class="whatsapp" href="https://wa.me/573133205715" id="whatsapp" rel="noopener noreferrer" target="_blank">
+   ✆
+  </a>
+<div class="overlay" hidden="" id="overlay">
+</div>
+<aside aria-hidden="true" aria-label="Carrito de compras" aria-modal="true" class="cart-panel" id="cartPanel" role="dialog">
+<div class="panel-top">
+<h2>
+     Tu bolsita 🛍️
+    </h2>
+<button aria-label="Cerrar carrito" id="closeCart">
+     ✕
+    </button>
+</div>
+<div id="cartItems">
+</div>
+<div class="cart-bottom">
+<div class="total">
+<b>
+      Total
+     </b>
+<b id="total">
+      $0
+     </b>
+</div>
+<button class="btn primary" id="checkout">
+     Preparar pedido por WhatsApp
+    </button>
+<p class="fineprint">Pedido por WhatsApp: confirma disponibilidad y precios antes de comprar.</p>
+</div>
+</aside>
+<dialog id="productDialog">
+<button aria-label="Cerrar detalles" class="dialog-close" id="closeDialog">
+    ✕
+   </button>
+<div id="dialogContent">
+</div>
+</dialog>
+<script defer="" src="script.js">
+</script>
+</body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="Bloom Seoul - tienda demostrativa de K-Beauty" name="description"/>
+<title>
+   Productos | Bloom Seoul
+  </title>
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header">
+<a class="logo" href="index.html">
+    ✿ Bloom
+    <span>
+     Seoul
+    </span>
+</a>
+<button aria-expanded="false" aria-label="Abrir menú" class="menu-btn" id="menuBtn">
+    ☰
+   </button>
+<nav id="nav">
+<a href="index.html">
+     Inicio
+    </a>
+<a href="nosotros.html">
+     Nosotros
+    </a>
+<a aria-current="page" href="productos.html">
+     Productos
+    </a>
+<a href="rutinas.html">
+     Rutinas K-Beauty
+    </a>
+<a href="contacto.html">
+     Contacto
+    </a>
+</nav>
+<button aria-label="Abrir carrito" class="cart-trigger" id="cartBtn">
+    🛍️
+    <span id="count">
+     0
+    </span>
+</button><button aria-label="Activar modo oscuro" class="theme-toggle" id="themeToggle" title="Cambiar tema" type="button">🌙</button>
+</header>
+<main>
+<section class="section products" id="productos">
+<div class="section-heading reveal">
+<span class="eyebrow">
+      PICKS FOR YOUR ROUTINE
+     </span>
+<h2>
+      Favoritos
+      <em>
+       K-Beauty
+      </em>
+      🎀
+     </h2>
+<p>
+      Descubre tu próximo favorito. Productos y precios ilustrativos.
+     </p>
+</div>
+<div class="toolbar">
+<label class="search">
+<span>
+       ⌕
+      </span>
+<input aria-label="Buscar productos" id="search" placeholder="Buscar productos..." type="search"/>
+</label>
+<select aria-label="Filtrar por categoría" id="filter">
+<option value="all">
+       Todas las categorías
+      </option>
+</select>
+</div>
+<div class="product-grid" id="productGrid">
+</div>
+<p class="empty" hidden="" id="empty">
+     No encontramos productos con esa búsqueda 🌷
+    </p>
+<div class="beauty-banner reveal">
+<div>
+<span class="eyebrow">
+       THE GLOW EDIT
+      </span>
+<h3>
+       Makeup, Skincare &amp; Korean Beauty 🎀
+      </h3>
+<p>
+       Un toque de color, una rutina de cuidado y mucho amor propio.
+      </p>
+<a class="btn secondary" href="productos.html">
+       Ver colección ↑
+      </a>
+</div>
+<img alt="Retrato de mujer adulta con maquillaje natural" loading="lazy" src="https://images.unsplash.com/photo-1524250502761-1ac6f2e30d43?w=900&amp;q=80"/>
+</div>
+</section>
+</main>
+<footer>
+<a class="logo" href="index.html">
+    ✿ Bloom
+    <span>
+     Seoul
+    </span>
+</a>
+<p>
+    Pequeños rituales, grandes sonrisas. ♡
+   </p>
+<small>
+    ©
+    <span id="year">
+</span>
+    Bloom Seoul · Sitio demostrativo, sin pagos reales.
+   </small>
+</footer>
+<a aria-label="Escribir a Bloom Seoul por WhatsApp" class="whatsapp" href="https://wa.me/573133205715" id="whatsapp" rel="noopener noreferrer" target="_blank">
+   ✆
+  </a>
+<div class="overlay" hidden="" id="overlay">
+</div>
+<aside aria-hidden="true" aria-label="Carrito de compras" aria-modal="true" class="cart-panel" id="cartPanel" role="dialog">
+<div class="panel-top">
+<h2>
+     Tu bolsita 🛍️
+    </h2>
+<button aria-label="Cerrar carrito" id="closeCart">
+     ✕
+    </button>
+</div>
+<div id="cartItems">
+</div>
+<div class="cart-bottom">
+<div class="total">
+<b>
+      Total
+     </b>
+<b id="total">
+      $0
+     </b>
+</div>
+<button class="btn primary" id="checkout">
+     Preparar pedido por WhatsApp
+    </button>
+<p class="fineprint">Pedido por WhatsApp: confirma disponibilidad y precios antes de comprar.</p>
+</div>
+</aside>
+<dialog id="productDialog">
+<button aria-label="Cerrar detalles" class="dialog-close" id="closeDialog">
+    ✕
+   </button>
+<div id="dialogContent">
+</div>
+</dialog>
+<script defer="" src="script.js">
+</script>
+</body>
+</html>

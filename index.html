@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="Bloom Seoul - tienda demostrativa de K-Beauty" name="description"/>
+<title>
+   Inicio | Bloom Seoul
+  </title>
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header">
+<a class="logo" href="index.html">
+    ✿ Bloom
+    <span>
+     Seoul
+    </span>
+</a>
+<button aria-expanded="false" aria-label="Abrir menú" class="menu-btn" id="menuBtn">
+    ☰
+   </button>
+<nav id="nav">
+<a aria-current="page" href="index.html">
+     Inicio
+    </a>
+<a href="nosotros.html">
+     Nosotros
+    </a>
+<a href="productos.html">
+     Productos
+    </a>
+<a href="rutinas.html">
+     Rutinas K-Beauty
+    </a>
+<a href="contacto.html">
+     Contacto
+    </a>
+</nav>
+<button aria-label="Abrir carrito" class="cart-trigger" id="cartBtn">
+    🛍️
+    <span id="count">
+     0
+    </span>
+</button><button aria-label="Activar modo oscuro" class="theme-toggle" id="themeToggle" title="Cambiar tema" type="button">🌙</button>
+</header>
+<main>
+<section class="hero section" id="inicio">
+<div class="hero-copy reveal">
+<div class="eyebrow">
+      ✧ BEAUTY FROM SEOUL ✧
+     </div>
+<h1>
+      Tu mundo de belleza coreana
+      <em>
+       comienza aquí 🌸
+      </em>
+</h1>
+<p>
+      Descubre el encanto del K-Beauty con maquillaje, skincare y productos inspirados en las tendencias de Corea del Sur.
+     </p>
+<div class="actions">
+<a class="btn primary" href="productos.html">
+       Explorar productos →
+      </a>
+<a class="btn secondary" href="nosotros.html">
+       Conócenos
+      </a>
+</div>
+<div class="hero-note">
+      ♡ Tu ritual de belleza, a tu manera
+     </div>
+</div>
+<div class="hero-visual reveal">
+<img alt="Retrato de mujer adulta con maquillaje suave" loading="eager" src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=1000&amp;q=85"/>
+<span class="floating flower">
+      ✿
+     </span>
+<span class="floating sticker">
+      Glow every day ✨
+     </span>
+</div>
+</section>
+</main>
+<footer>
+<a class="logo" href="index.html">
+    ✿ Bloom
+    <span>
+     Seoul
+    </span>
+</a>
+<p>
+    Pequeños rituales, grandes sonrisas. ♡
+   </p>
+<small>
+    ©
+    <span id="year">
+</span>
+    Bloom Seoul · Sitio demostrativo, sin pagos reales.
+   </small>
+</footer>
+<a aria-label="Escribir a Bloom Seoul por WhatsApp" class="whatsapp" href="https://wa.me/573133205715" id="whatsapp" rel="noopener noreferrer" target="_blank">
+   ✆
+  </a>
+<div class="overlay" hidden="" id="overlay">
+</div>
+<aside aria-hidden="true" aria-label="Carrito de compras" aria-modal="true" class="cart-panel" id="cartPanel" role="dialog">
+<div class="panel-top">
+<h2>
+     Tu bolsita 🛍️
+    </h2>
+<button aria-label="Cerrar carrito" id="closeCart">
+     ✕
+    </button>
+</div>
+<div id="cartItems">
+</div>
+<div class="cart-bottom">
+<div class="total">
+<b>
+      Total
+     </b>
+<b id="total">
+      $0
+     </b>
+</div>
+<button class="btn primary" id="checkout">
+     Preparar pedido por WhatsApp
+    </button>
+<p class="fineprint">Pedido por WhatsApp: confirma disponibilidad y precios antes de comprar.</p>
+</div>
+</aside>
+<dialog id="productDialog">
+<button aria-label="Cerrar detalles" class="dialog-close" id="closeDialog">
+    ✕
+   </button>
+<div id="dialogContent">
+</div>
+</dialog>
+<script defer="" src="script.js">
+</script>
+</body>
+</html>
